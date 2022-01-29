@@ -9832,3 +9832,56 @@ nav img {
   font-weight: bold;
   margin: 0;
 }
+
+.curso__avatar {
+  text-align: center;
+}
+
+.curso__avatar img {
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.curso__avatar p {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.cursos__redes {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cursos__redes a {
+  font-size: 20px;
+  color: #000;
+  cursor: pointer;
+}
+
+.curso__text p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.cursos__mas {
+  padding: 0.5rem;
+  background-color: darkgray;
+  color: #fff;
+  text-align: center;
+}
+
+.cursos__lista ul {
+  list-style: circle;
+  padding-left: 20px;
+}
+
+.cursos_animacion {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  max-width: 300px;
+}

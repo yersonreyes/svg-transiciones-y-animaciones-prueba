@@ -1,0 +1,58 @@
+.cursos {
+}
+
+.curso__avatar {
+  text-align: center;
+  img {
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid $color-black;
+  }
+
+  p {
+    font-size: $font-l;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+  }
+}
+
+.cursos__redes {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+  a {
+    font-size: $font-l;
+    color: $color-black;
+    cursor: pointer;
+  }
+}
+
+.curso__text {
+  p {
+    font-size: $font-m;
+    margin: 0;
+  }
+}
+
+.cursos__mas {
+  padding: 0.5rem;
+  background-color: darkgray;
+  color: $color-white;
+  text-align: center;
+}
+
+.cursos__lista {
+  ul {
+    list-style: circle;
+    padding-left: 20px;
+  }
+}
+
+.cursos_animacion {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  max-width: 300px;
+}
