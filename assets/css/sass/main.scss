@@ -1,0 +1,15 @@
+@import "vendors/scss/bootstrap.scss";
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+@import "base/reset";
+@import "base/grid";
+
+@import "components/navbar";
+@import "components/buttons";
+@import "components/lista";
+
+@import "layout/header";
+@import "layout/hero";
+@import "layout/html-css";
+@import "layout/sass";

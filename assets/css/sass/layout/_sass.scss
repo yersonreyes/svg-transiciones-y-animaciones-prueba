@@ -1,0 +1,15 @@
+.sass {
+  @include base;
+}
+
+.sass__img {
+  @include base-img;
+}
+
+.sass__texto {
+  @include base-texto;
+}
+
+.sass__extra {
+  @include base-extra;
+}

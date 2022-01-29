@@ -1,0 +1,15 @@
+.html-css {
+  @include base;
+}
+
+.html-css__img {
+  @include base-img;
+}
+
+.html-css__texto {
+  @include base-texto;
+}
+
+.html-css__extra {
+  @include base-extra;
+}

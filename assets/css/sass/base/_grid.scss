@@ -1,0 +1,30 @@
+.grilla {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  grid-template-areas: "seccion1 seccion1" "seccion2 seccion2";
+  gap: 1rem;
+}
+
+.seccion1 {
+  grid-area: seccion1;
+  border: 1px solid $color-sable;
+  padding: 10px;
+  margin: 0.5rem;
+  box-sizing: border-box;
+}
+
+.seccion2 {
+  grid-area: seccion2;
+  border: 1px solid $color-sable;
+  padding: 10px;
+  margin: 0.5rem;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 500px) {
+  .grilla {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    grid-template-areas: "seccion1 seccion2" "seccion1 seccion2";
+  }
+}

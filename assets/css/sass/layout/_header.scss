@@ -1,0 +1,17 @@
+.header {
+  background-color: $color-black;
+}
+
+nav {
+  img {
+    height: 50px;
+  }
+}
+
+.button-menu {
+  border: none;
+  i {
+    color: $color-white;
+    font-size: 2rem;
+  }
+}
