@@ -9708,6 +9708,10 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .grilla {
   display: grid;
   grid-template: 1fr 1fr / 1fr 1fr;
