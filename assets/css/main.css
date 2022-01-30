@@ -9731,12 +9731,73 @@ body {
   box-sizing: border-box;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 650px) {
   .grilla {
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
     grid-template-areas: "seccion1 seccion2" "seccion1 seccion2";
   }
+}
+
+#coder {
+  animation-duration: 2s;
+  animation-name: coder;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes coder {
+  from {
+    transform: translateX(-50px);
+  }
+  to {
+    transform: translateX(50px);
+  }
+}
+
+#engrane {
+  animation-duration: 2s;
+  animation-name: roll;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes roll {
+  0% {
+    transform: translateX(20px);
+  }
+  25% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateX(-20px);
+  }
+  75% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+.button {
+  background-color: #ffaf6d;
+  color: #000;
+  border: 1px solid white;
+  width: 60px;
+  border-radius: 0.25rem;
+}
+
+.button:hover {
+  background: #fff;
+}
+
+.input {
+  border-radius: 0.25rem;
+}
+
+.input:focus {
+  background-color: #ffaf6d;
 }
 
 .html-css__extra-lista {
@@ -9762,6 +9823,10 @@ nav img {
 .button-menu i {
   color: #fff;
   font-size: 2rem;
+}
+
+.button-menu i:hover {
+  color: #ffaf6d;
 }
 
 .hero {
@@ -9884,4 +9949,52 @@ nav img {
   display: flex;
   justify-content: center;
   max-width: 300px;
+}
+
+.cursos_animacion-svg {
+  position: relative;
+}
+
+.fotter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  background-color: #000;
+  color: #fff;
+}
+
+.fotter p {
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media only screen and (min-width: 900px) {
+  .fotter {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem;
+    gap: 1rem;
+    height: 100px;
+  }
+  .footer__complementos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .footer__formulario {
+    flex-direction: row;
+  }
 }

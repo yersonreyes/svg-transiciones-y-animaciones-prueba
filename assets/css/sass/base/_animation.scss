@@ -1,0 +1,42 @@
+#coder {
+  animation-duration: 2s;
+  animation-name: coder;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes coder {
+  from {
+    transform: translateX(-50px);
+  }
+
+  to {
+    transform: translateX(50px);
+  }
+}
+
+#engrane {
+  animation-duration: 2s;
+  animation-name: roll;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes roll {
+  0% {
+    transform: translateX(20px);
+  }
+  25% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateX(-20px);
+  }
+  75% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}

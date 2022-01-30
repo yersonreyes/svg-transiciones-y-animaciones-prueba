@@ -1,0 +1,19 @@
+.button {
+  background-color: $color-tangerine;
+  color: $color-black;
+  border: 1px solid white;
+  width: 60px;
+  border-radius: 0.25rem;
+
+  &:hover {
+    background: $color-white;
+  }
+}
+
+.input {
+  border-radius: 0.25rem;
+
+  &:focus {
+    background-color: $color-tangerine;
+  }
+}

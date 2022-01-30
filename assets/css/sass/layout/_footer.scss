@@ -1,0 +1,45 @@
+.fotter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  background-color: $color-black;
+  color: $color-white;
+
+  p {
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.footer__formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media only screen and (min-width: 900px) {
+  .fotter {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem;
+    gap: 1rem;
+    height: 100px;
+  }
+
+  .footer__complementos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .footer__formulario {
+    flex-direction: row;
+  }
+}
